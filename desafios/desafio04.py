@@ -2,10 +2,12 @@
 Escreva um valor e printe o tipo primitivo
 e todas as informações sobre ele.
 '''
+
+from cores import cores 
 n = input('Digite alguma coisa: ')
 
 print(
-f"""
+f"""{cores['vermelho']}
 O tipo primitivo de {n} é {type(n)}
 Alphanumerico {n.isalpha()}
 
@@ -24,4 +26,5 @@ Printavel {n.isprintable()}
 uppercase {n.isupper()}
 
 Space {n.isspace()}
+{cores['limpar']}
 """)
