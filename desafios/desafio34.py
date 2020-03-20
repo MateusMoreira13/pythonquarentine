@@ -7,7 +7,7 @@ salario = float(input('Salário do funcionário '))
 
 aumento = (10/100)
 
-if salario < 1250:
+if salario <= 1250:
    aumento = (15/100)
 
-print(f' o aumento salarial foi {salario*aumento}')
+print(f'Quem ganhava R$ {salario:.2f} sofreu um aumento salarial para R$ {salario+(salario*aumento):.2f}')
