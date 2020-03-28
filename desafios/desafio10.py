@@ -2,8 +2,9 @@
 Crie um programa que leia quanto dinheiro a pessoa tem na carteira
 e diga quanto ela tem em dólar. Calcular 1 dólar 3,11 reais
 '''
+from cores import cores
 
-carteira = float(input('Quanto dinheiro existe na carteira? R$ '))
+carteira = float(input(f'{cores["azul"]}Quanto dinheiro existe na carteira? R${cores["limpar"]} '))
 
 dolar    = carteira / 3.27
 

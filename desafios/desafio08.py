@@ -2,8 +2,8 @@
 Escreba un programa que haga un conversor de metros para centímetros y milímetros
 después imprima el resultado
 '''
-
-metros      = float(input('Escreva um valor em metros '))
+from cores import cores
+metros      = float(input(f'{cores["amarelo"]}Escreva um valor em metros{cores["limpar"]} '))
 centimetros = metros * 100
 milimetros  = metros * 1000
 kilometros  = metros / 1000
